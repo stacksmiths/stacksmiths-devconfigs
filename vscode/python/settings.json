@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.eol": "\n",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "python.pythonPath": ".venv/bin/python",
+  "terminal.integrated.defaultProfile.linux": "bash"
+}

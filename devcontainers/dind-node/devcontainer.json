@@ -1,0 +1,26 @@
+{
+  "name": "DIND with Node.js",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "node": {
+      "version": "lts",
+      "nodeGypDependencies": true
+    }
+  },
+  "postCreateCommand": "./postCreate.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "files.eol": "\n",
+        "javascript.format.enable": true,
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
